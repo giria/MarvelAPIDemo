@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SuperHeroViewController.h"
 
 @implementation AppDelegate
 
@@ -17,7 +18,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    SuperHeroViewController *vc = [[SuperHeroViewController alloc] init];
     
+    [self.window setRootViewController:vc];
     return YES;
 }
 

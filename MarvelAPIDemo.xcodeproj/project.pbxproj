@@ -22,6 +22,14 @@
 		99B1D3CC196400A500E907C3 /* NSString+MD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */; };
 		99B1D3CF1964027C00E907C3 /* MarvelAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */; };
 		99B1D3D11964041900E907C3 /* MarvelAPIHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */; };
+		99D58D17196AA90B0025CCCE /* SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D16196AA90B0025CCCE /* SuperHero.m */; };
+		99D58D19196AA9510025CCCE /* SuperHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D18196AA9510025CCCE /* SuperHeroTests.m */; };
+		99D58D1C196AAA240025CCCE /* SuperHeroParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D1B196AAA240025CCCE /* SuperHeroParser.m */; };
+		99D58D20196AAE180025CCCE /* SuperHeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D1E196AAE180025CCCE /* SuperHeroViewController.m */; };
+		99D58D21196AAE180025CCCE /* SuperHeroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D1F196AAE180025CCCE /* SuperHeroViewController.xib */; };
+		99D58D25196AB6160025CCCE /* SuperHeroParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D24196AB6160025CCCE /* SuperHeroParserTests.m */; };
+		99D58D29196AE1980025CCCE /* QUIE-THOR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99D58D28196AE1980025CCCE /* QUIE-THOR.jpg */; };
+		99D58D2C196AE3DE0025CCCE /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D58D2B196AE3DE0025CCCE /* ImageDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,18 @@
 		99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarvelAPIHelper.h; sourceTree = "<group>"; };
 		99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIHelper.m; sourceTree = "<group>"; };
 		99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIHelperTests.m; sourceTree = "<group>"; };
+		99D58D15196AA90B0025CCCE /* SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHero.h; sourceTree = "<group>"; };
+		99D58D16196AA90B0025CCCE /* SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHero.m; sourceTree = "<group>"; };
+		99D58D18196AA9510025CCCE /* SuperHeroTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroTests.m; sourceTree = "<group>"; };
+		99D58D1A196AAA240025CCCE /* SuperHeroParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHeroParser.h; sourceTree = "<group>"; };
+		99D58D1B196AAA240025CCCE /* SuperHeroParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroParser.m; sourceTree = "<group>"; };
+		99D58D1D196AAE180025CCCE /* SuperHeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHeroViewController.h; sourceTree = "<group>"; };
+		99D58D1E196AAE180025CCCE /* SuperHeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroViewController.m; sourceTree = "<group>"; };
+		99D58D1F196AAE180025CCCE /* SuperHeroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SuperHeroViewController.xib; path = MarvelAPIDemo/SuperHeroViewController.xib; sourceTree = "<group>"; };
+		99D58D24196AB6160025CCCE /* SuperHeroParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHeroParserTests.m; sourceTree = "<group>"; };
+		99D58D28196AE1980025CCCE /* QUIE-THOR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QUIE-THOR.jpg"; sourceTree = "<group>"; };
+		99D58D2A196AE3DE0025CCCE /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		99D58D2B196AE3DE0025CCCE /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +137,13 @@
 			children = (
 				99B1D3A81964003600E907C3 /* AppDelegate.h */,
 				99B1D3A91964003600E907C3 /* AppDelegate.m */,
+				99D58D28196AE1980025CCCE /* QUIE-THOR.jpg */,
+				99D58D14196AA8D80025CCCE /* Controller */,
+				99D58D22196AAE280025CCCE /* View */,
+				99D58D13196AA8D20025CCCE /* Model */,
+				99D58D12196AA8470025CCCE /* NSString+MD5 */,
 				99B1D3AB1964003600E907C3 /* Images.xcassets */,
 				99B1D3A01964003600E907C3 /* Supporting Files */,
-				99B1D3C81964005600E907C3 /* NSString+MD5.h */,
-				99B1D3C91964005600E907C3 /* NSString+MD5.m */,
-				99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */,
-				99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */,
 			);
 			path = MarvelAPIDemo;
 			sourceTree = "<group>";
@@ -144,6 +165,8 @@
 				99B1D3B91964003700E907C3 /* Supporting Files */,
 				99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */,
 				99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */,
+				99D58D18196AA9510025CCCE /* SuperHeroTests.m */,
+				99D58D24196AB6160025CCCE /* SuperHeroParserTests.m */,
 			);
 			path = MarvelAPIDemoTests;
 			sourceTree = "<group>";
@@ -155,6 +178,48 @@
 				99B1D3BB1964003700E907C3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D58D12196AA8470025CCCE /* NSString+MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				99B1D3C81964005600E907C3 /* NSString+MD5.h */,
+				99B1D3C91964005600E907C3 /* NSString+MD5.m */,
+			);
+			name = "NSString+MD5";
+			sourceTree = "<group>";
+		};
+		99D58D13196AA8D20025CCCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */,
+				99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */,
+				99D58D15196AA90B0025CCCE /* SuperHero.h */,
+				99D58D16196AA90B0025CCCE /* SuperHero.m */,
+				99D58D1A196AAA240025CCCE /* SuperHeroParser.h */,
+				99D58D1B196AAA240025CCCE /* SuperHeroParser.m */,
+				99D58D2A196AE3DE0025CCCE /* ImageDownloader.h */,
+				99D58D2B196AE3DE0025CCCE /* ImageDownloader.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		99D58D14196AA8D80025CCCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99D58D1D196AAE180025CCCE /* SuperHeroViewController.h */,
+				99D58D1E196AAE180025CCCE /* SuperHeroViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		99D58D22196AAE280025CCCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99D58D1F196AAE180025CCCE /* SuperHeroViewController.xib */,
+			);
+			name = View;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D21196AAE180025CCCE /* SuperHeroViewController.xib in Resources */,
+				99D58D29196AE1980025CCCE /* QUIE-THOR.jpg in Resources */,
 				99B1D3A41964003600E907C3 /* InfoPlist.strings in Resources */,
 				99B1D3AC1964003600E907C3 /* Images.xcassets in Resources */,
 			);
@@ -252,9 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D1C196AAA240025CCCE /* SuperHeroParser.m in Sources */,
 				99B1D3CF1964027C00E907C3 /* MarvelAPIHelper.m in Sources */,
 				99B1D3CA1964005600E907C3 /* NSString+MD5.m in Sources */,
+				99D58D20196AAE180025CCCE /* SuperHeroViewController.m in Sources */,
+				99D58D17196AA90B0025CCCE /* SuperHero.m in Sources */,
 				99B1D3AA1964003600E907C3 /* AppDelegate.m in Sources */,
+				99D58D2C196AE3DE0025CCCE /* ImageDownloader.m in Sources */,
 				99B1D3A61964003600E907C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D58D19196AA9510025CCCE /* SuperHeroTests.m in Sources */,
 				99B1D3CC196400A500E907C3 /* NSString+MD5Tests.m in Sources */,
+				99D58D25196AB6160025CCCE /* SuperHeroParserTests.m in Sources */,
 				99B1D3D11964041900E907C3 /* MarvelAPIHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
